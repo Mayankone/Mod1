@@ -65,3 +65,4 @@ while(i<alienArray.length){
 
 console.log(alienArray);
 console.log(USSHELLOWORLD);
+
