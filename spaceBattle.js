@@ -62,7 +62,7 @@ while(i<alienArray.length){
         i++;
     }
 }
-
+//
 console.log(alienArray);
 console.log(USSHELLOWORLD);
 
