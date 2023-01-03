@@ -31,6 +31,7 @@ alienFleet.addShip("Ship4");
 alienFleet.addShip("Ship5");
 alienFleet.addShip("Ship6");
 
+const loseAlert = document.getElementById("Float");
 const myHull = document.getElementById("USHULL");
 const myFirePower = document.getElementById("USFIREPOWER");
 const myAccuracy = document.getElementById("USACCURACY");
@@ -96,7 +97,13 @@ alienFleet.ships.forEach((element, index) => {                               // 
 })
 
 const loss = () => {
-    alert("You lose");
+    alert("USS WORLD SHIP HAS NO HULL REMAINING! Game over.");
+    loseAlert.innerHTML = "YOU LOSE";
+}
+
+const win =() => {
+    alert("ALIEN SHIPS ALL DEFEATED! YOU WIN!");
+    loseAlert.innerHTML = "YOU WIN";
 }
 
 
@@ -127,6 +134,10 @@ for(let i = 0; i<alienFleet.ships.length;i++){
                     }
                 })
                 console.log(alienFleet.ships[i].name + " has lost");
+                if(alienFleet.ships[5].hull <= 0){
+                    console.log("YOU WIN!");
+                    win();
+                }
                 break;
             }
             else if(alienFleet.ships[i].hull > 0 && alienFleet.ships[i].accuracy > Math.random()){ // If alien fleet has hull, have it counter attack

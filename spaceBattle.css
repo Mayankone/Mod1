@@ -28,9 +28,9 @@ font-size: x-large;
 position: relative;
 left: 0px;
 top: 100px;
-color: darkblue;
+color: whitesmoke;
 background-color: rgb(221, 49, 49);
-border-color: green;
+border-color: black;
 }
 
 #Repeat{
@@ -40,7 +40,7 @@ font-size: x-large;
 position: relative;
 left: 0px;
 top: 100px;
-border-color: fuchsia;
+color: white;
 background-color: lime;
 }
 
@@ -85,7 +85,7 @@ color: whitesmoke;
 .spantag3{
     position: absolute;
     left: 880px;
-    bottom: 330px
+    bottom: 350px
 }
 
 #Enemy4{
@@ -98,7 +98,7 @@ color: whitesmoke;
 .spantag4{
     position: absolute;
     left: 880px;
-    bottom: 32px;
+    bottom: 50px;
 }
 
 #Enemy5{
@@ -111,7 +111,7 @@ color: whitesmoke;
 .spantag5{
     position: absolute;
     left: 1230px;
-    bottom: 330px
+    bottom: 350px
 }
 
 #Enemy6{
@@ -125,5 +125,15 @@ color: whitesmoke;
     position: absolute;
     left: 1220px;
     bottom: 50px;
+}
+
+#Float{
+    position: absolute;
+    bottom: 150px;
+    font-size: 190px;
+    font-weight: 1000;
+    color: gold;
+    font-family: sans-serif;
+        
 }
 
