@@ -136,7 +136,7 @@ for(let i = 0; i<alienFleet.ships.length;i++){
                 console.log(alienFleet.ships[i].name + " has lost");
                 if(alienFleet.ships[5].hull <= 0){
                     console.log("YOU WIN!");
-                    win()
+                    win();
                 }
                 break;
             }
