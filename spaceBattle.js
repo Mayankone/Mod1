@@ -138,7 +138,6 @@ for(let i = 0; i<alienFleet.ships.length;i++){
                     console.log("YOU WIN!");
                     win();
                 }
-                break;
             }
             else if(alienFleet.ships[i].hull > 0 && alienFleet.ships[i].accuracy > Math.random()){ // If alien fleet has hull, have it counter attack
                 USSHELLOWORLD2.hull = USSHELLOWORLD2.hull - alienFleet.ships[i].firepower;
@@ -156,6 +155,7 @@ for(let i = 0; i<alienFleet.ships.length;i++){
         
     }
 }
+
 
 
 const showAlert = () => {
