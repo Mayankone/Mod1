@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = text/css href="spaceBattle.css">
+    <script src="spaceBattle.js" defer></script>
     <title>Document</title>
 </head>
-<body>
+<body id="Background">
+    <img src = "./uss_ship.png" height="300">
+    <h1>USS world</h1>
+    <h3 id="USHULL"></h3>
+    <h3 id="USFIREPOWER"></h3>
+    <h3 id="USACCURACY"></h3>
+
+    <button id = "Down" type="submit">START</button>
+    <button id="END" onClick=history.go(0); type="button">Retreat</button>
+    <button id = "Repeat" onClick=history.go(0);>Repeat?</button>
+
+    <div class="image-container">
+    <img id = "Enemy" class = "IMAGE" src="./enemy_ship.png">
+    <img id = "Enemy2" class = "IMAGE" src="./enemy_ship.png">
+    <img id = "Enemy3" class = "IMAGE" src="./enemy_ship.png">
+    <img id = "Enemy4" class = "IMAGE" src="./enemy_ship.png">
+    <img id = "Enemy5" class = "IMAGE" src="./enemy_ship.png">
+    <img id = "Enemy6" class = "IMAGE" src="./enemy_ship.png">
+    </div>
+
+
+    <span class="spantag1">
     
+    <h2>Enemy 1</h2>
+    <h3 class="Ahull" id="0">Hull: </h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"></h3>
+    </span>
+
+    
+    
+
+    <span class="spantag2">
+    
+    <h2>Enemy 2</h2>
+    <h3 class="Ahull" id="1"></h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"></h3>
+    </span>
+
+    <span class="spantag3">
+    
+    <h2>Enemy 3</h2>
+    <h3 class="Ahull" id="2"></h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"> </h3>
+    </span>
+
+
+    <span class="spantag4">
+    
+    <h2>Enemy 4</h2>
+    <h3 class="Ahull" id="3"></h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"></h3>
+    </span>
+
+
+    <span class="spantag5">
+    
+    <h2>Enemy 5</h2>
+    <h3 class="Ahull" id="4"></h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"></h3>
+    </span>
+
+
+    <span class="spantag6">
+    
+    <h2>Enemy 6</h2>
+    <h3 class="Ahull" id="5"></h3>
+    <h3 class="Firepower"></h3>
+    <h3 class="Accuracy"></h3>
+    </span>
+        
+
 </body>
 </html>

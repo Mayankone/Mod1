@@ -1,0 +1,129 @@
+#Enemy{
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    bottom: 550px
+}
+
+#USHULL{
+    color: rgb(10, 113, 113);
+}
+
+#USFIREPOWER{
+    color: white;
+}
+
+#USACCURACY{
+    color: red;
+}
+
+#Background{
+    background-color: greenyellow
+}
+
+#Down{
+height: 50px;
+width: 100px;
+font-size: x-large;
+position: relative;
+left: 0px;
+top: 100px;
+color: darkblue;
+background-color: rgb(221, 49, 49);
+border-color: green;
+}
+
+#Repeat{
+height: 50px;
+width: 100px;
+font-size: x-large;
+position: relative;
+left: 0px;
+top: 100px;
+border-color: fuchsia;
+background-color: lime;
+}
+
+#END{
+height: 50px;
+width: 100px;
+font-size: x-large;
+position: relative;
+left: 0px;
+top: 100px;
+border-color: blanchedalmond;
+background-color: darkblue;
+color: whitesmoke;
+}
+
+.spantag1{
+    position: absolute;
+    left: 530px;
+    bottom: 350px
+}
+
+#Enemy2{
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    bottom: 250px
+}
+
+.spantag2{
+    position: absolute;
+    left: 530px;
+    bottom: 50px;
+}
+
+#Enemy3{
+    height: 100px;
+    position: absolute;
+    left: 850px;
+    bottom: 550px
+}
+
+.spantag3{
+    position: absolute;
+    left: 880px;
+    bottom: 330px
+}
+
+#Enemy4{
+    height: 100px;
+    position: absolute;
+    left: 850px;
+    bottom: 250px
+}
+
+.spantag4{
+    position: absolute;
+    left: 880px;
+    bottom: 32px;
+}
+
+#Enemy5{
+    height: 100px;
+    position: absolute;
+    left: 1200px;
+    bottom: 550px
+}
+
+.spantag5{
+    position: absolute;
+    left: 1230px;
+    bottom: 330px
+}
+
+#Enemy6{
+    height: 100px;
+    position: absolute;
+    left: 1200px;
+    bottom: 250px
+}
+
+.spantag6{
+    position: absolute;
+    left: 1220px;
+    bottom: 50px;
+}
+
